@@ -1,0 +1,62 @@
+
+#include <Servo.h>
+//Se crean los motores
+Servo motor1;  
+Servo motor2;
+Servo motor3;
+Servo motor4;
+Servo motor5;
+Servo motor6;
+
+float angulosHome[] = {0, 90, 30, 0, 90, 0};
+float angulosRecibidos[] = {0, 0, 0, 0, 0, 0};
+unsigned long tiempoAnterior = 0;  
+const int intervalo = 100;  
+
+void setup() {
+//Inicializar los servos
+  motor1.attach(2);  
+  motor2.attach(3);  
+  motor3.attach(4);  
+  motor4.attach(5);  
+  motor5.attach(6);  
+  motor6.attach(7);  
+  Serial.begin(9600);
+
+  // Mueve los servos a la posición inicial
+  moveServos(angulosHome);
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    String receivedString = Serial.readStringUntil('\n');
+    recibeData(receivedString);
+    moveServos(angulosRecibidos);
+  }
+}
+
+void moveServos(float angulos[]) {
+  motor1.write(angulos[0]);
+  motor2.write(angulos[1]);
+  motor3.write(angulos[2]);
+  motor4.write(angulos[3]);
+  motor5.write(angulos[4]);
+  motor6.write(angulos[5]);
+}
+
+void recibeData(String data) {
+  int index = 0;
+  int startIndex = 0;
+  int endIndex = data.indexOf(' ');
+
+  while (endIndex != -1 && index < 6) {
+    angulosRecibidos[index] = data.substring(startIndex, endIndex).toFloat();
+    startIndex = endIndex + 1;
+    endIndex = data.indexOf(' ', startIndex);
+    index++;
+  }
+
+  if (index < 6) {
+    angulosRecibidos[index] = data.substring(startIndex).toFloat();
+  }
+}
