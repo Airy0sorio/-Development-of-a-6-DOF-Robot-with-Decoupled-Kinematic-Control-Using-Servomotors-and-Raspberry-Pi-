@@ -128,6 +128,8 @@ Este código realiza el cálculo de los ángulos necesarios para cada articulaci
 
 ## 3. Electrónica.
 
+![Imagen Placa de desarrollo en Proteus ](Readme_img/DPlaca.jpeg)
+
 ---
 
 ## 4. Resultados.
