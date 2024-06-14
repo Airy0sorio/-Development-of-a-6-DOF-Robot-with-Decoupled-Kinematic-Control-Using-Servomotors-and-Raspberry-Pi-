@@ -41,7 +41,7 @@ Este código proporciona funcionalidades para establecer y gestionar la comunica
 Para crear una copia del proyecto puedes utilizar:
 
 ```
-git clone https://github.com/Airy0sorio/Robotica_2024_1_Airy
+git clone [https://github.com/Airy0sorio/Robotica_2024_1_Airy](https://github.com/Airy0sorio/-Development-of-a-6-DOF-Robot-with-Decoupled-Kinematic-Control-Using-Servomotors-and-Raspberry-Pi)
 ```
 ---
 
