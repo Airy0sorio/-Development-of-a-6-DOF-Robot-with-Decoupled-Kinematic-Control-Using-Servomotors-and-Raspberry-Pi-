@@ -32,12 +32,15 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 
 ## 1.2 Cinemática Directa
 
-|   |   |   |   |
-|---|---|---|---|
-| cos(t)         | -sin(t) * cos(α) | sin(t) * sin(α) | a * cos(t) |
-| sin(t)         | cos(t) * cos(α)  | -cos(t) * sin(α) | a * sin(t) |
-| 0              | sin(α)           | cos(α)           | d          |
-| 0              | 0                | 0                | 1          |
+\[ 
+\begin{bmatrix}
+\cos(t) & -\sin(t) \cdot \cos(\alpha) & \sin(t) \cdot \sin(\alpha) & a \cdot \cos(t) \\
+\sin(t) & \cos(t) \cdot \cos(\alpha) & -\cos(t) \cdot \sin(\alpha) & a \cdot \sin(t) \\
+0 & \sin(\alpha) & \cos(\alpha) & d \\
+0 & 0 & 0 & 1 \\
+\end{bmatrix}
+\]
+
 
 
 
