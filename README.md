@@ -9,16 +9,13 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 - **Año:** 2024-1
 ---
 
-\begin{tabular}{cccccc}
-\toprule
-\textbf{art} & $\boldsymbol{\theta_i}$ & $\boldsymbol{d_i}$ & $\boldsymbol{a_i}$ & $\boldsymbol{\alpha_i}$ \\
-\midrule
-1 & $\theta_1$ & $l_1$ & 0 & $\frac{\pi}{2}$ \\
-2 & $\theta_2$ & 0 & $l_2$ & 0 \\
-3 & $\theta_3$ & 0 & 0 & $\frac{\pi}{2}$ \\
-4 & $\theta_4$ & $l_3$ & 0 & $-\frac{\pi}{2}$ \\
-\bottomrule
-\end{tabular}
+| **art** | $\boldsymbol{\theta_i}$ | $\boldsymbol{d_i}$ | $\boldsymbol{a_i}$ | $\boldsymbol{\alpha_i}$ |
+|---------|--------------------------|-------------------|-------------------|--------------------------|
+| 1       | $\theta_1$               | $l_1$             | 0                 | $\frac{\pi}{2}$          |
+| 2       | $\theta_2$               | 0                 | $l_2$             | 0                        |
+| 3       | $\theta_3$               | 0                 | 0                 | $\frac{\pi}{2}$          |
+| 4       | $\theta_4$               | $l_3$             | 0                 | $-\frac{\pi}{2}$         |
+
 
 ---
 # 2. Descripcion de los codigos
