@@ -25,6 +25,7 @@ Este código actúa como el controlador principal para un brazo robótico de 6 g
 - Interfaz con Aplicación Móvil: Gestiona la recepción de datos desde la aplicación móvil y envía los resultados de vuelta según el modo de operación seleccionado.
 
 ## 2.2 Gestión de Comunicación Bluetooth 
+Nombre del Codigo "BT.py"
 ### Funcionalidad
 Este código proporciona funcionalidades para establecer y gestionar la comunicación Bluetooth entre un controlador y una aplicación móvil para controlar un brazo robótico. Permite actuar tanto como cliente como servidor Bluetooth según las necesidades de conexión.
 
