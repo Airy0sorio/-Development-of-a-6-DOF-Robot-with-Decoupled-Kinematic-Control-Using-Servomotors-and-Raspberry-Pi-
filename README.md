@@ -64,6 +64,32 @@ Este código proporciona funcionalidades para establecer y gestionar la comunica
 - Envío de Datos Recibidos: En modo cliente, automáticamente reenvía los datos recibidos.
 - Detención de Servicio: Permite detener el servidor Bluetooth cuando sea necesario.
 
+## 2.3 Conexión Serial para Comunicación con Microcontrolador
+Nombre del Codigo "Serial.py"
+###Funcionalidad
+Este código facilita la comunicación bidireccional a través de un puerto serial entre un sistema de control y un dispositivo Arduino. Permite enviar datos desde el sistema de control al Arduino y viceversa.
+
+###Características
+- Conexión Serial: Establece una conexión serial con el Arduino utilizando el puerto especificado y un baudrate de 9600 por defecto.
+- Envío de Datos: Capaz de enviar datos al Arduino, asegurando que el formato de los datos sea válido antes de la transmisión.
+- Validación de Datos: Verifica que los datos a enviar al Arduino estén en el formato correcto (se espera un string con seis valores separados por comas).
+- Gestión de Conexión: Maneja la apertura y cierre adecuados del puerto serial.
+- Precisión de Pines Analógicos: Utiliza la conexión serial debido a la mayor precisión y control que ofrece sobre los pines analógicos del Arduino.
+
+## 2.4 Cálculo de Ángulos de Euler Mediante Cinemática Directa
+Nombre del Código "Cinematica_directa.py
+### Funcionalidad
+Este código implementa la cinemática directa para un brazo robótico de 6 grados de libertad (6GDL), calculando los ángulos de Euler correspondientes a una posición especificada en el espacio. Utiliza la matriz de transformación homogénea (MTH) para determinar la orientación y posición del efector final del brazo robótico.
+
+### Características
+- Configuración de Parámetros DH: Define las longitudes y ángulos de los parámetros de Denavit-Hartenberg (DH) que describen la estructura cinemática del brazo robótico.
+- Transformación Homogénea: Calcula la matriz de transformación homogénea desde la base hasta el efector final utilizando los parámetros DH y los ángulos de entrada.
+- Cálculo de Ángulos de Euler: Utiliza la matriz de rotación de la MTH para obtener los ángulos de Euler que describen la orientación del efector final en el espacio.
+- Conversión de Unidades: Convierte los ángulos de entrada de grados a radianes antes de realizar los cálculos.
+- Manejo de Errores: Captura y maneja excepciones para asegurar que los datos de entrada estén correctamente formateados y sean válidos.
+
+
+
 ---
 ## Clonar repositorio
 Para crear una copia del proyecto puedes utilizar:
