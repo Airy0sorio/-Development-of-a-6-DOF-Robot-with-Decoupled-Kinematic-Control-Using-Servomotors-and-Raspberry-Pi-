@@ -120,6 +120,16 @@ Mas informacion en la sección 3.2 del pdf adjunto
 ---
 
 ## 3. Electrónica.
+Para alimentar los 6 servomotores de nuestro robot utilizando una fuente externa de voltaje, hemos diseñado una placa electrónica específica. Utilizamos el software Eagle para crear el diagrama eléctrico. Los materiales necesarios para la construcción de esta placa son los siguientes:
+
+- Capacitor: 2200 microFaradios
+- Placa de cobre
+- Clema: 2 entradas
+- Pines de tipo macho
+- Conectores Dupont
+
+Estos componentes asegurarán una alimentación estable y segura para los servomotores, permitiendo un control eficiente y preciso del robot.
+
 <img src="Readme_img/DPlaca.jpeg" alt="Placa de servos" width="600"/>
 
 
