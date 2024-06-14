@@ -116,6 +116,7 @@ Este código realiza el cálculo de los ángulos necesarios para cada articulaci
 
 Mas informacion en la sección 3.2 del pdf adjunto
 [documento PDF](./Recursos_Adicionales/Análisis_Cinemático_de_un_Robot_de_6_GDL.pdf).
+imagen 1: Diagrama electrico de la placa en Eagle
 
 ---
 
