@@ -139,13 +139,19 @@ Imagen 1: Diagrama electrico de la placa en Eagle
 ## 4. Resultados.
 
 ### 4.1 Robot empleado para el proyecto.
+
 <img src="Readme_img/BrazoRo.jpeg" alt="Imagen del Brazo Robótico" width="600"/>
-Imagen 2: Brazo de 6 GDL aramdo
+Imagen 2: Brazo de 6 GDL armado
 
 ### 4.2 App Móvil.
-<img src="Readme_img/PagPrincipal_app.jpeg" alt="PagPrincipal_Ap" width="600"/>
+<img src="Readme_img/PagPrincipal_app.jpeg" alt="PagPrincipal_App" width="600"/>
 Imagen 1: Página Principal de la App Móvil 
 
+<img src="Readme_img/PagBT_app.jpeg" alt="PagBT_App" width="600"/>
+Imagen 1: Página Principal de la App Móvil 
+
+<img src="Readme_img/PagEnvio_app.jpeg" alt="PagEnvio_App" width="600"/>
+Imagen 1: Página Principal de la App Móvil 
 
 ### 4.3 Video de demostración.
 
