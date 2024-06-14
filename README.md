@@ -18,7 +18,7 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 - **$l_4$**: Es la distancia del eslabón 4.
 - **$\theta_i$**: Son los valores de los ángulos para cada motor.
 
-### Tabla de Parámetros Denavit-Hartenberg del Robot
+### Tabla de Parámetros de Denavit-Hartenberg del Robot
 
 | **art** | $\boldsymbol{\theta_i}$ | $\boldsymbol{d_i}$ | $\boldsymbol{a_i}$ | $\boldsymbol{\alpha_i}$ |
 |---------|--------------------------|-------------------|-------------------|--------------------------|
@@ -28,6 +28,11 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 | 4       | $\theta_4$               | $l_3$             | 0                 | -90                      |
 | 5       | $\theta_5$               | 0                 | 0                 | 90                       |
 | 6       | $\theta_6$               | $l_4$             | 0                 | 0                        |
+
+## 1.3 Cinemática Inversa
+Para calcular la cinemática inversa del robot, se utilizó el método geométrico. En este método, se define el vector \( \mathbf{r} \) como la distancia desde el origen del robot hasta el centro de la muñeca esférica, \( \mathbf{s} \) como el vector que va desde el centro de la muñeca esférica hasta el extremo del actuador, y \( \mathbf{p} \) como el vector que va desde el origen hasta el extremo del actuador.
+
+Inicialmente, se aplicó la cinemática directa para determinar la posición espacial de la muñeca esférica, obteniendo así el vector \( \mathbf{R} \).
 
 
 ---
