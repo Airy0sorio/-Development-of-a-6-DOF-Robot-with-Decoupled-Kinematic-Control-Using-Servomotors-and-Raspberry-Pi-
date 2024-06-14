@@ -7,8 +7,11 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 - **Curso:** Robótica
 - **Instructor:** Dr. Gerardo Pérez Soto
 - **Año:** 2024-1
+
 ---
+
 # 1. Modelado Matematico
+Éstos parámetros se calcularon según la convención proximal de Denavit-Hartenberg
 ## 1.1 Parametros de Denavit-Hartenberg
 ### Descripción de Parámetros
 
@@ -30,13 +33,16 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 | 6       | $\theta_6$               | $l_4$             | 0                 | 0                        |
 
 ## 1.2 Cinemática Directa
-La cinemática directa es una técnica utilizada en robótica para determinar la posición y orientación del actuador final (extremo) de un robot en función de sus parámetros articulares. Para un robot de 6 Grados de Libertad (GDL), esto implica calcular la posición y orientación del extremo en el espacio tridimensional a partir de las longitudes de los eslabones y los ángulos de las articulaciones.
+La cinemática directa es una técnica utilizada en robótica para determinar la posición y orientación del actuador final (extremo) de un robot a partir de sus parámetros articulares. Para un robot de 6 Grados de Libertad (GDL), esto implica calcular la posición y orientación del extremo en el espacio tridimensional usando las longitudes de los eslabones y los ángulos de las articulaciones.
 
-Para un robot de 6 GDL, se construyen 6 matrices de transformación homogénea, cada una correspondiente a una articulación del robot. Estas matrices se multiplican secuencialmente para obtener la MTH total del robot, que describe la posición y orientación del actuador final en el espacio
-
+Para un robot de 6 GDL, se construyen 6 matrices de transformación homogénea, cada una correspondiente a una articulación del robot. Estas matrices se multiplican secuencialmente para obtener la Matriz de Transformación Homogénea (MTH) total del robot, que describe la posición y orientación del actuador final en el espacio.
 
 ## 1.3 Cinemática Inversa
 La cinemática inversa es una técnica utilizada en robótica para determinar los ángulos articulares de un robot a partir de una posición y orientación deseadas del actuador final (extremo). Para un robot de 6 Grados de Libertad (GDL), esto implica calcular los ángulos de cada una de las articulaciones necesarias para que el extremo del robot alcance una posición y orientación específicas en el espacio tridimensional.
+
+La cinemática inversa es fundamental en aplicaciones robóticas que requieren precisión en la manipulación y el movimiento del robot. Permite que el actuador final alcance posiciones y orientaciones específicas de manera controlada y eficiente.
+
+Para mas información al respecto favor de checar el pdf incluido 
 
 ---
 # 2. Descripcion de los codigos
