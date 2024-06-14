@@ -10,4 +10,4 @@ This project involves designing and implementing a 6-DOF robotic arm controlled 
   
 ## Video de demostración
 
-[Ver el video en YouTube](https://www.youtube.com/watch?v=253IUvlZ2ow)
+[Ver el video en YouTube](https://youtu.be/IZDzBegQsG4)
