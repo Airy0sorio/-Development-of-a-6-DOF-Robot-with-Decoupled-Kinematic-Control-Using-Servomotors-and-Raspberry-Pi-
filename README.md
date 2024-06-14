@@ -10,7 +10,7 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 
 ---
 # Descripcion de los codigos
-## 1.1 Main
+## 1.1 Principal
 Nombre del Codigo "main.py"
 ### Funcionalidad
 Este código actúa como el controlador principal para un brazo robótico de 6 grados de libertad (6GDL), permitiendo su operación y control mediante una conexión Bluetooth desde una aplicación móvil. Facilita dos modos de operación clave: cinemática directa y cinemática inversa.
