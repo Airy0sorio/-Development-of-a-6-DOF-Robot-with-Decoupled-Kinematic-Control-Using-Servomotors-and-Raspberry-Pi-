@@ -89,10 +89,10 @@ Este código proporciona funcionalidades para establecer y gestionar la comunica
 
 ## 2.3 Conexión Serial para Comunicación con Microcontrolador
 Nombre del Codigo "Serial.py"
-###Funcionalidad
+### Funcionalidad
 Este código facilita la comunicación bidireccional a través de un puerto serial entre un sistema de control y un dispositivo Arduino. Permite enviar datos desde el sistema de control al Arduino y viceversa.
 
-###Características
+### Características
 - Conexión Serial: Establece una conexión serial con el Arduino utilizando el puerto especificado y un baudrate de 9600 por defecto.
 - Envío de Datos: Capaz de enviar datos al Arduino, asegurando que el formato de los datos sea válido antes de la transmisión.
 - Validación de Datos: Verifica que los datos a enviar al Arduino estén en el formato correcto (se espera un string con seis valores separados por comas).
@@ -102,23 +102,23 @@ Este código facilita la comunicación bidireccional a través de un puerto seri
 ## 2.4 Cálculo de Ángulos de Euler Mediante Cinemática Directa
 Nombre del Código "Cinematica_directa.py
 ### Funcionalidad
-Este código implementa la cinemática directa para un brazo robótico de 6 grados de libertad (6GDL), calculando los ángulos de Euler correspondientes a una posición especificada en el espacio. Utiliza la matriz de transformación homogénea (MTH) para determinar la orientación y posición del efector final del brazo robótico.
+Este código implementa la cinemática directa para un brazo robótico de 6 grados de libertad (6GDL), calculando los ángulos de Euler correspondientes a una posición especificada en el espacio. Utiliza la matriz de transformación homogénea (MTH) para determinar la orientación y posición del actuador final del brazo robótico.
 
 ### Características
 - Configuración de Parámetros DH: Define las longitudes y ángulos de los parámetros de Denavit-Hartenberg (DH) que describen la estructura cinemática del brazo robótico.
-- Transformación Homogénea: Calcula la matriz de transformación homogénea desde la base hasta el efector final utilizando los parámetros DH y los ángulos de entrada.
-- Cálculo de Ángulos de Euler: Utiliza la matriz de rotación de la MTH para obtener los ángulos de Euler que describen la orientación del efector final en el espacio.
+- Transformación Homogénea: Calcula la matriz de transformación homogénea desde la base hasta el actuador final utilizando los parámetros DH y los ángulos de entrada.
+- Cálculo de Ángulos de Euler: Utiliza la matriz de rotación de la MTH para obtener los ángulos de Euler que describen la orientación del actuador final en el espacio.
 - Conversión de Unidades: Convierte los ángulos de entrada de grados a radianes antes de realizar los cálculos.
 - Manejo de Errores: Captura y maneja excepciones para asegurar que los datos de entrada estén correctamente formateados y sean válidos.
 
 ## 2.5 Cálculo de Ángulos para Grados de Libertad (GDL) de un Brazo Robótico
 Nombre del Código "desacoplo.py"
 ### Funcionalidad
-Este código realiza el cálculo de los ángulos necesarios para cada grado de libertad (GDL) de un brazo robótico de 6 GDL. Utiliza los ángulos de Euler y la posición especificada para determinar las configuraciones articulares que posicionan el brazo en el espacio.
+Este código realiza el cálculo de los ángulos necesarios para cada articulacion de un brazo robótico de 6 GDL. Utiliza los ángulos de Euler y la posición especificada para determinar las configuraciones articulares que posicionan el brazo en el espacio.
 
 ### Características
 - Configuración de Parámetros DH: Define las longitudes y ángulos de los parámetros de Denavit-Hartenberg (DH) que describen la estructura cinemática del brazo robótico.
-- Cálculo de Matriz de Transformación Homogénea: Calcula la matriz de transformación homogénea desde la base hasta el efector final del brazo robótico utilizando los ángulos de Euler y la posición dada.
+- Cálculo de Matriz de Transformación Homogénea: Calcula la matriz de transformación homogénea desde la base hasta el actuador final del brazo robótico utilizando los ángulos de Euler y la posición dada.
 - Ángulos de Articulación 1 a 3: Determina los ángulos necesarios para los primeros tres grados de libertad del brazo robótico a partir de la posición calculada.
 - Ángulos de Articulación 4 a 6: Calcula los ángulos restantes necesarios para los grados de libertad 4 a 6 utilizando la matriz de rotación resultante de la transformación 0-3.
 - Conversión de Unidades: Convierte los ángulos de radianes a grados para facilitar la comprensión y configuración del brazo robótico.
