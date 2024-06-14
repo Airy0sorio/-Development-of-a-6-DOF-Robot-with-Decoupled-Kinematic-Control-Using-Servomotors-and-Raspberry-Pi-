@@ -9,7 +9,8 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 - **Año:** 2024-1
 
 ---
-# Descripcion de los codigos
+# 1.Descripcion de los codigos
+
 ## 1.1 Principal
 Nombre del Codigo "main.py"
 ### Funcionalidad
@@ -23,7 +24,17 @@ Este código actúa como el controlador principal para un brazo robótico de 6 g
 - Integración Serial: Utiliza comunicación serial para enviar comandos de posición al brazo robótico.
 - Interfaz con Aplicación Móvil: Gestiona la recepción de datos desde la aplicación móvil y envía los resultados de vuelta según el modo de operación seleccionado.
 
+## 1.2Gestión de Comunicación Bluetooth 
+### Funcionalidad
+Este código proporciona funcionalidades para establecer y gestionar la comunicación Bluetooth entre un controlador y una aplicación móvil para controlar un brazo robótico. Permite actuar tanto como cliente como servidor Bluetooth según las necesidades de conexión.
 
+### Características
+- Modo Cliente y Servidor: Puede operar como cliente o servidor Bluetooth dependiendo de la configuración inicial.
+- Recepción y Envío de Datos: Capaz de recibir y enviar datos a través de la conexión Bluetooth.
+- Notificación de Conexión: Informa sobre cambios en el estado de la conexión Bluetooth.
+- Interfaz de Callback: Utiliza una función de callback (onRecive) para manejar los datos recibidos.
+- Envío de Datos Recibidos: En modo cliente, automáticamente reenvía los datos recibidos.
+- Detención de Servicio: Permite detener el servidor Bluetooth cuando sea necesario.
 
 ---
 ## Clonar repositorio
