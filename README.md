@@ -36,8 +36,8 @@ La MTH de 0 a 𝑛 GDL se define por la siguiente expresión:
 
 $$\[
 \begin{bmatrix}
-\cos(t) & -\sin(t) \cdot \cos(\alpha) & \sin(t) \cdot \sin(\alpha) & a \cdot \cos(t) \\
-\sin(t) & \cos(t) \cdot \cos(\alpha) & -\cos(t) \cdot \sin(\alpha) & a \cdot \sin(t) \\
+\cos($\theta$) & -\sin($\theta$) \cdot \cos(\alpha) & \sin($\theta$) \cdot \sin(\alpha) & a \cdot \cos($\theta$) \\
+\sin($\theta$) & \cos($\theta$) \cdot \cos(\alpha) & -\cos($\theta$) \cdot \sin(\alpha) & a \cdot \sin($\theta$) \\
 0 & \sin(\alpha) & \cos(\alpha) & d \\
 0 & 0 & 0 & 1 \\
 \end{bmatrix}
