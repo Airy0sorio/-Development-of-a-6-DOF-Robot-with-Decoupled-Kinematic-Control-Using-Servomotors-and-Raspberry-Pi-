@@ -43,6 +43,7 @@ La cinemática inversa es una técnica utilizada en robótica para determinar lo
 La cinemática inversa es fundamental en aplicaciones robóticas que requieren precisión en la manipulación y el movimiento del robot. Permite que el actuador final alcance posiciones y orientaciones específicas de manera controlada y eficiente.
 
 Para mas información al respecto favor de checar el pdf incluido 
+[documento PDF](./Recursos_Adicionales/Recursos_Adicionales/Análisis_Cinemático_de_un_Robot_de_6_GDL.pdf).
 
 ---
 # 2. Descripcion de los codigos
