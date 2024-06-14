@@ -98,6 +98,9 @@ Este código implementa la cinemática directa para un brazo robótico de 6 grad
 - Conversión de Unidades: Convierte los ángulos de entrada de grados a radianes antes de realizar los cálculos.
 - Manejo de Errores: Captura y maneja excepciones para asegurar que los datos de entrada estén correctamente formateados y sean válidos.
 
+Mas informacion en la sección 3.1 del pdf adjunto
+[documento PDF](./Recursos_Adicionales/Análisis_Cinemático_de_un_Robot_de_6_GDL.pdf).
+
 ## 2.5 Cálculo de Ángulos para Grados de Libertad (GDL) de un Brazo Robótico
 Nombre del Código "desacoplo.py"
 ### Funcionalidad
@@ -110,6 +113,9 @@ Este código realiza el cálculo de los ángulos necesarios para cada articulaci
 - Ángulos de Articulación 4 a 6: Calcula los ángulos restantes necesarios para los grados de libertad 4 a 6 utilizando la matriz de rotación resultante de la transformación 0-3.
 - Conversión de Unidades: Convierte los ángulos de radianes a grados para facilitar la comprensión y configuración del brazo robótico.
 - Manejo de Errores: Captura y maneja excepciones para asegurar que los datos de entrada estén correctamente formateados y sean válidos.
+
+Mas informacion en la sección 3.2 del pdf adjunto
+[documento PDF](./Recursos_Adicionales/Análisis_Cinemático_de_un_Robot_de_6_GDL.pdf).
 
 ---
 
