@@ -36,9 +36,7 @@ Para un robot de 6 GDL, se construyen 6 matrices de transformación homogénea, 
 
 
 ## 1.3 Cinemática Inversa
-Para calcular la cinemática inversa del robot, se utilizó el método geométrico. En este método, se define el vector R como la distancia desde el origen del robot hasta el centro de la muñeca esférica, S como el vector que va desde el centro de la muñeca esférica hasta el extremo del actuador, y P como el vector que va desde el origen hasta el extremo del actuador.
-
-Inicialmente, se aplicó la cinemática directa para determinar la posición espacial de la muñeca esférica, obteniendo así el vector R
+La cinemática inversa es una técnica utilizada en robótica para determinar los ángulos articulares de un robot a partir de una posición y orientación deseadas del actuador final (extremo). Para un robot de 6 Grados de Libertad (GDL), esto implica calcular los ángulos de cada una de las articulaciones necesarias para que el extremo del robot alcance una posición y orientación específicas en el espacio tridimensional.
 
 ---
 # 2. Descripcion de los codigos
