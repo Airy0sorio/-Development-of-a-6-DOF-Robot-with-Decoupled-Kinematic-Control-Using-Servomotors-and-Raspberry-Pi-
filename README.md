@@ -1,9 +1,3 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[spanish]{babel}
-
-
 # Implementación de Brazo Robótico de 6GDL Controlado por App Móvil
 Este proyecto presenta la implementación de un brazo robótico de 6 grados de libertad (6GDL) controlado por una aplicación móvil. El brazo fue programado en Python y se comunica vía Bluetooth con la aplicación, permitiendo al usuario seleccionar entre dos modos de operación: cinemática directa y cinemática inversa. En el modo de cinemática directa, el usuario ingresa un vector de valores para cada GDL y el sistema devuelve un vector de ángulos de Euler. En el modo de cinemática inversa, el usuario ingresa un vector de ángulos de Euler y el sistema devuelve un vector de ángulos para cada GDL.
 
@@ -37,7 +31,7 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 
 ## 1.2 Cinemática Directa
 
-$\[ 
+$$\[ 
 \begin{bmatrix}
 \cos(t) & -\sin(t) \cdot \cos(\alpha) & \sin(t) \cdot \sin(\alpha) & a \cdot \cos(t) \\
 \sin(t) & \cos(t) \cdot \cos(\alpha) & -\cos(t) \cdot \sin(\alpha) & a \cdot \sin(t) \\
@@ -45,7 +39,7 @@ $\[
 0 & 0 & 0 & 1 \\
 \end{bmatrix}
 \]
-$
+$$
 
 
 
