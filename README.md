@@ -8,6 +8,12 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 - **Instructor:** Dr. Gerardo Pérez Soto
 - **Año:** 2024-1
 
+---
+
+
+
+
+---
   
 ## Video de demostración
 
