@@ -11,7 +11,6 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 # 1. Modelado Matematico
 ## 1.1 Parametros de  Denavit-Hartenberg
 
-<center>
 
 | **art** | $\boldsymbol{\theta_i}$ | $\boldsymbol{d_i}$ | $\boldsymbol{a_i}$ | $\boldsymbol{\alpha_i}$ |
 |---------|--------------------------|-------------------|-------------------|--------------------------|
@@ -22,8 +21,12 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 | 5       | $\theta_5$               | 0                 | 0                 | 90                       |
 | 6       | $\theta_6$               | $l_4$             | 0                 | 0                        |
 
-</center>
-
+Donde:
+- $l_1$ : Es la distancia del eslabón 1
+- $l_2$ : Es la distancia del eslabón 2
+- $l_3$ : Es la distancia del eslabón 3
+- $l_4$ : Es la distancia del eslabón 4
+- $\theta_n$ : Son los valores que tendrán los angulos de cada motor 
 
 ---
 # 2. Descripcion de los codigos
