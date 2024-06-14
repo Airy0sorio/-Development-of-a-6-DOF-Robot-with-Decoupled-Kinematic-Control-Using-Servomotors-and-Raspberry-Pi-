@@ -116,7 +116,7 @@ Este código realiza el cálculo de los ángulos necesarios para cada articulaci
 
 Mas informacion en la sección 3.2 del pdf adjunto
 [documento PDF](./Recursos_Adicionales/Análisis_Cinemático_de_un_Robot_de_6_GDL.pdf).
-imagen 1: Diagrama electrico de la placa en Eagle
+
 
 ---
 
@@ -132,7 +132,7 @@ Para alimentar los 6 servomotores de nuestro robot utilizando una fuente externa
 Estos componentes asegurarán una alimentación estable y segura para los servomotores, permitiendo un control eficiente y preciso del robot.
 
 <img src="Readme_img/DPlaca.jpeg" alt="Placa de servos" width="600"/>
-
+Imagen 1: Diagrama electrico de la placa en Eagle
 
 ---
 
