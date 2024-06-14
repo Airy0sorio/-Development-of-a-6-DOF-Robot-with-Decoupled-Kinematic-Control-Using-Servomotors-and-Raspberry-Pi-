@@ -133,6 +133,7 @@ Este código realiza el cálculo de los ángulos necesarios para cada articulaci
 ## 4. Resultados.
 
 ### 4.1 Robot empleado para el proyecto.
+![Imagen del Brazo Robótico](Readme_img/BrazoRo.jpeg)
 
 ### 4.2 App Móvil.
 
