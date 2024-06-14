@@ -12,12 +12,12 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 ## 1.1 Parametros de  Denavit-Hartenberg
 | **art** | $\boldsymbol{\theta_i}$ | $\boldsymbol{d_i}$ | $\boldsymbol{a_i}$ | $\boldsymbol{\alpha_i}$ |
 |---------|--------------------------|-------------------|-------------------|--------------------------|
-| 1       | $\theta_1$               | $l_1$             | 0                 | $90$          |
+| 1       | $\theta_1$               | $l_1$             | 0                 | 90                       |
 | 2       | $\theta_2$               | 0                 | $l_2$             | 0                        |
-| 3       | $\theta_3$               | 0                 | 0                 | $\frac{\pi}{2}$          |
-| 4       | $\theta_4$               | $l_3$             | 0                 | $-\frac{\pi}{2}$         |
-| 5       | $\theta_5$               | 0                 | 0                 | $\frac{\pi}{2}$          |
-| 6       | $\theta_6$               | $l_4$             | 0                 | $-\frac{\pi}{2}$         |
+| 3       | $\theta_3$               | 0                 | 0                 | 90                       |
+| 4       | $\theta_4$               | $l_3$             | 0                 | -90                      |
+| 5       | $\theta_5$               | 0                 | 0                 | 90                       |
+| 6       | $\theta_6$               | $l_4$             | 0                 | 0                        |
 
 ---
 # 2. Descripcion de los codigos
