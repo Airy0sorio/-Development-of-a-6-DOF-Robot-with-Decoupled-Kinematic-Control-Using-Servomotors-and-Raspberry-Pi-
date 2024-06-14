@@ -126,18 +126,22 @@ Este código realiza el cálculo de los ángulos necesarios para cada grado de l
 
 ---
 
-## 4. Resultados
+## 3. Electrónica.
 
-### 4.1 Robot empleado para el proyecto
+---
 
-### 4.2 App Móvil 
+## 4. Resultados.
 
-### 4.3 Video de demostración
+### 4.1 Robot empleado para el proyecto.
+
+### 4.2 App Móvil.
+
+### 4.3 Video de demostración.
 
 [Ver el video en YouTube](https://youtu.be/IZDzBegQsG4)
 
 ---
-## 5. Clonar repositorio
+## 5. Clonar repositorio.
 Para crear una copia del proyecto puedes utilizar:
 
 ```
@@ -145,11 +149,11 @@ git clone [https://github.com/Airy0sorio/Robotica_2024_1_Airy](https://github.co
 ```
 ---
 
-## 6. Instrucciones para ejecutar los archivos en Python
+## 6. Instrucciones para ejecutar los archivos en Python.
 
 Este repositorio contiene archivos Python para ejecutar diversas funciones. Para hacerlo de manera efectiva, se recomienda utilizar el editor de código Visual Studio Code (VSCode).
 
-### Requisitos previos
+### Requisitos previos.
 Antes de ejecutar los programas, sigue estos pasos:
 
 1. **Instalación de Python:**
