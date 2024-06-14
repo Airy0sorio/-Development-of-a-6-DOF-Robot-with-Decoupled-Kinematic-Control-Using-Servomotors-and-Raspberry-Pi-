@@ -73,6 +73,7 @@ Una vez configurado el entorno, puedes ejecutar el programa escribiendo el sigui
     
 Para futuras ejecuciones, simplemente activa el entorno virtual y ejecuta el archivo Python que deseas correr. 
 Los pasos 4 y 6 son suficientes para ejecutar cualquier código adicional.
+
 ---
 ## Video de demostración
 
