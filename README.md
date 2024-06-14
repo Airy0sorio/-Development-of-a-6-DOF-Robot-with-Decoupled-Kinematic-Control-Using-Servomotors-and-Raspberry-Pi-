@@ -30,6 +30,14 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 | 5       | $\theta_5$               | 0                 | 0                 | 90                       |
 | 6       | $\theta_6$               | $l_4$             | 0                 | 0                        |
 
+## 1.2 Cinemática Directa
+
+A = | cos(t)    -sin(t) * cos(α)    sin(t) * sin(α)    a * cos(t) |
+    | sin(t)     cos(t) * cos(α)   -cos(t) * sin(α)    a * sin(t) |
+    |    0           sin(α)             cos(α)             d      |
+    |    0              0                  0                 1     |
+
+
 ## 1.3 Cinemática Inversa
 Para calcular la cinemática inversa del robot, se utilizó el método geométrico. En este método, se define el vector R como la distancia desde el origen del robot hasta el centro de la muñeca esférica, S como el vector que va desde el centro de la muñeca esférica hasta el extremo del actuador, y P como el vector que va desde el origen hasta el extremo del actuador.
 
