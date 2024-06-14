@@ -30,27 +30,9 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 | 6       | $\theta_6$               | $l_4$             | 0                 | 0                        |
 
 ## 1.2 Cinemática Directa
-La Matriz de Transformación Homogénea (MTH) se utiliza para calcular los ángulos de Euler del actuador final de un robot con múltiples Grados de Libertad (GDL). Esta matriz proporciona una representación espacial completa de la configuración del robot desde la base hasta el actuador final.
+La cinemática directa es una técnica utilizada en robótica para determinar la posición y orientación del actuador final (extremo) de un robot en función de sus parámetros articulares. Para un robot de 6 Grados de Libertad (GDL), esto implica calcular la posición y orientación del extremo en el espacio tridimensional a partir de las longitudes de los eslabones y los ángulos de las articulaciones.
 
-La MTH de 0 a 𝑛 GDL se define por la siguiente expresión:
-
-$$\[
-\begin{bmatrix}
-\cos(\theta) & -\sin(\theta) \cdot \cos(\alpha) & \sin(\theta) \cdot \sin(\alpha) & a \cdot \cos(\theta) \\
-\sin(\theta) & \cos(\theta) \cdot \cos(\alpha) & -\cos(\theta) \cdot \sin(\alpha) & a \cdot \sin(\theta) \\
-0 & \sin(\alpha) & \cos(\alpha) & d \\
-0 & 0 & 0 & 1 \\
-\end{bmatrix}
-\]
-$$
-
-Para calcular los ángulos de Euler que describen la orientación del actuador final de un robot, es esencial conocer la MTH de 0 a 𝑛
-n GDL, donde 𝑛 representa el número total de Grados de Libertad del robot. Cada elemento de esta matriz está determinado por los parámetros de Denavit-Hartenberg (DH), los cuales definen la geometría y configuración relativa de cada eslabón y articulación del robot.
-
--  $\theta$: Ángulo de traslación respecto al eje z anterior.
-- α: Ángulo de rotación respecto al eje x común.
-- a: Distancia entre los ejes z a lo largo del eje x.
-- d: Longitud del enlace a lo largo del eje z.
+Para un robot de 6 GDL, se construyen 6 matrices de transformación homogénea, cada una correspondiente a una articulación del robot. Estas matrices se multiplican secuencialmente para obtener la MTH total del robot, que describe la posición y orientación del actuador final en el espacio
 
 
 ## 1.3 Cinemática Inversa
