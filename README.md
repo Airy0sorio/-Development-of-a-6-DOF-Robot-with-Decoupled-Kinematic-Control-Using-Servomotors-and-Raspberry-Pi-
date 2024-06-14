@@ -47,10 +47,10 @@ $$
 Para calcular los ángulos de Euler que describen la orientación del actuador final de un robot, es esencial conocer la MTH de 0 a 𝑛
 n GDL, donde 𝑛 representa el número total de Grados de Libertad del robot. Cada elemento de esta matriz está determinado por los parámetros de Denavit-Hartenberg (DH), los cuales definen la geometría y configuración relativa de cada eslabón y articulación del robot.
 
-t: Ángulo de traslación respecto al eje z anterior.
-α: Ángulo de rotación respecto al eje x común.
-a: Distancia entre los ejes z a lo largo del eje x.
-d: Longitud del enlace a lo largo del eje z.
+- t: Ángulo de traslación respecto al eje z anterior.
+- α: Ángulo de rotación respecto al eje x común.
+- a: Distancia entre los ejes z a lo largo del eje x.
+- d: Longitud del enlace a lo largo del eje z.
 
 
 ## 1.3 Cinemática Inversa
