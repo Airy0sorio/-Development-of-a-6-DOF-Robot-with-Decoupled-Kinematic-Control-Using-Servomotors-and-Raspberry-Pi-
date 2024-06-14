@@ -127,15 +127,15 @@ Este código realiza el cálculo de los ángulos necesarios para cada articulaci
 ---
 
 ## 3. Electrónica.
+<img src="Readme_img/DPlaca.jpeg" alt="Placa de servos" width="600"/>
 
-![Imagen Placa de desarrollo en Proteus ](Readme_img/DPlaca.jpeg)
 
 ---
 
 ## 4. Resultados.
 
 ### 4.1 Robot empleado para el proyecto.
-<img src="Readme_img/BrazoRo.jpeg" alt="Imagen del Brazo Robótico" width="400"/>
+<img src="Readme_img/BrazoRo.jpeg" alt="Imagen del Brazo Robótico" width="600"/>
 
 ### 4.2 App Móvil.
 
