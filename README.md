@@ -30,7 +30,9 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 | 6       | $\theta_6$               | $l_4$             | 0                 | 0                        |
 
 ## 1.2 Cinemática Directa
+La Matriz de Transformación Homogénea (MTH) se utiliza para calcular los ángulos de Euler del actuador final de un robot con múltiples Grados de Libertad (GDL). Esta matriz proporciona una representación espacial completa de la configuración del robot desde la base hasta el actuador final.
 
+La MTH de 0 a 𝑛 GDL se define por la siguiente expresión:
 $$\[
 \begin{bmatrix}
 \cos(t) & -\sin(t) \cdot \cos(\alpha) & \sin(t) \cdot \sin(\alpha) & a \cdot \cos(t) \\
@@ -40,7 +42,13 @@ $$\[
 \end{bmatrix}
 \]
 $$
+Para calcular los ángulos de Euler que describen la orientación del actuador final de un robot, es esencial conocer la MTH de 0 a 𝑛
+n GDL, donde 𝑛 representa el número total de Grados de Libertad del robot. Cada elemento de esta matriz está determinado por los parámetros de Denavit-Hartenberg (DH), los cuales definen la geometría y configuración relativa de cada eslabón y articulación del robot.
 
+t: Ángulo de traslación respecto al eje z anterior.
+α: Ángulo de rotación respecto al eje x común.
+a: Distancia entre los ejes z a lo largo del eje x.
+d: Longitud del enlace a lo largo del eje z.
 
 
 ## 1.3 Cinemática Inversa
