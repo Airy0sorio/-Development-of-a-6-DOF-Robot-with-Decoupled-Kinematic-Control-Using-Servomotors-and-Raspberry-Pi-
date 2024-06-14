@@ -9,9 +9,9 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 - **Año:** 2024-1
 
 ---
-# 1.Descripcion de los codigos
+# 2. Descripcion de los codigos
 
-## 1.1 Principal
+## 2.1 Principal
 Nombre del Codigo "main.py"
 ### Funcionalidad
 Este código actúa como el controlador principal para un brazo robótico de 6 grados de libertad (6GDL), permitiendo su operación y control mediante una conexión Bluetooth desde una aplicación móvil. Facilita dos modos de operación clave: cinemática directa y cinemática inversa.
@@ -24,7 +24,7 @@ Este código actúa como el controlador principal para un brazo robótico de 6 g
 - Integración Serial: Utiliza comunicación serial para enviar comandos de posición al brazo robótico.
 - Interfaz con Aplicación Móvil: Gestiona la recepción de datos desde la aplicación móvil y envía los resultados de vuelta según el modo de operación seleccionado.
 
-## 1.2Gestión de Comunicación Bluetooth 
+## 2.2 Gestión de Comunicación Bluetooth 
 ### Funcionalidad
 Este código proporciona funcionalidades para establecer y gestionar la comunicación Bluetooth entre un controlador y una aplicación móvil para controlar un brazo robótico. Permite actuar tanto como cliente como servidor Bluetooth según las necesidades de conexión.
 
