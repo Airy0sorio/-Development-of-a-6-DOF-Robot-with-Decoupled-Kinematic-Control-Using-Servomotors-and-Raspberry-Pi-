@@ -11,7 +11,10 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 ---
 
 # 1. Modelado Matematico
-Éstos parámetros se calcularon según la convención proximal de Denavit-Hartenberg
+Éstos parámetros se calcularon según la convención proximal de Denavit-Hartenberg con respecto al siguiente robot
+<img src="Readme_img/image.png" alt="Ejes coordenados" width="600"/>
+Imagen 4: Brazo de 6 GDL con ejes coordenados
+
 ## 1.1 Parametros de Denavit-Hartenberg
 ### Descripción de Parámetros
 
@@ -131,8 +134,11 @@ Para alimentar los 6 servomotores de nuestro robot utilizando una fuente externa
 
 Estos componentes asegurarán una alimentación estable y segura para los servomotores, permitiendo un control eficiente y preciso del robot.
 
-<img src="Readme_img/DPlaca.jpeg" alt="Placa de servos" width="600"/>
-Imagen 1: Diagrama electrico de la placa en Eagle
+<img src="Readme_img/DPlaca.jpeg" alt="Placa de servoscoordenadassoftware" width="600"/>
+Imagen 2: Diagrama electrico de la placa en Eagle
+
+<img src="Readme_img/Placa1.jpeg" alt="Placa de servos" width="600"/>
+Imagen 3: Placa Soldada
 
 ---
 
@@ -141,17 +147,17 @@ Imagen 1: Diagrama electrico de la placa en Eagle
 ### 4.1 Robot empleado para el proyecto.
 
 <img src="Readme_img/BrazoRo.jpeg" alt="Imagen del Brazo Robótico" width="600"/>
-Imagen 2: Brazo de 6 GDL armado
+Imagen 4: Brazo de 6 GDL armado
 
 ### 4.2 App Móvil.
 <img src="Readme_img/PagPrincipal_app.jpeg" alt="PagPrincipal_App" width="600"/>
-Imagen 1: Página Principal de la App Móvil 
+Imagen 5: Página Principal de la App Móvil 
 
 <img src="Readme_img/PagBT_app.jpeg" alt="PagBT_App" width="600"/>
-Imagen 1: Página Principal de la App Móvil 
+Imagen 6: Página Principal de la App Móvil 
 
 <img src="Readme_img/PagEnvio_app.jpeg" alt="PagEnvio_App" width="600"/>
-Imagen 1: Página Principal de la App Móvil 
+Imagen 7: Página Principal de la App Móvil 
 
 ### 4.3 Video de demostración.
 
