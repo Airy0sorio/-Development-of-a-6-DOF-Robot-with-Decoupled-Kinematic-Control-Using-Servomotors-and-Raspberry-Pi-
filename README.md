@@ -15,7 +15,7 @@ Este proyecto presenta la implementación de un brazo robótico de 6 grados de l
 
 <img src="Readme_img/image.png" alt="Ejes coordenados" width="600"/>
 
-Imagen 4: Brazo de 6 GDL con ejes coordenados
+Imagen 1: Brazo de 6 GDL con ejes coordenados
 
 ## 1.1 Parametros de Denavit-Hartenberg
 ### Descripción de Parámetros
