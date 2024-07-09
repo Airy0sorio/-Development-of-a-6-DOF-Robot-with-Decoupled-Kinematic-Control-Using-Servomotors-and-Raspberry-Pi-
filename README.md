@@ -54,7 +54,7 @@ Para mas información al respecto favor de checar el pdf incluido
 # 2. Descripcion de los codigos
 
 ## 2.1 Principal
-Nombre del Codigo "main.py"
+Nombre del Codigo "[main.py](https://github.com/Airy0sorio/-Development-of-a-6-DOF-Robot-with-Decoupled-Kinematic-Control-Using-Servomotors-and-Raspberry-Pi-/blob/main/Codigos/main.py)"
 ### Funcionalidad
 Este código actúa como el controlador principal para un brazo robótico de 6 grados de libertad (6GDL), permitiendo su operación y control mediante una conexión Bluetooth desde una aplicación móvil. Facilita dos modos de operación clave: cinemática directa y cinemática inversa.
 
