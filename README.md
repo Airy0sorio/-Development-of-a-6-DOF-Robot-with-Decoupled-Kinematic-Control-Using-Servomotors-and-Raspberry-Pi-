@@ -216,7 +216,8 @@ Para futuras ejecuciones, simplemente activa el entorno virtual y ejecuta el arc
 Los pasos 4 y 6 son suficientes para ejecutar cualquier código adicional.
 
 
-##Referencias
+## Referencias
+
 @article{Bularka2018,
   author = {Bularka, Szilard and Szabo, Roland and Otesteanu, Marius and Babaita, Mircea},
   title = {Robotic Arm Control with Hand Movement Gestures},
