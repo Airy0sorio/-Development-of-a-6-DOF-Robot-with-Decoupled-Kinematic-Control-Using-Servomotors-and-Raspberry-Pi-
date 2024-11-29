@@ -206,7 +206,130 @@ Instala las librerías utilizadas en el proyecto ejecutando el siguiente comando
     ```
 
 6.**Ejecución del programa**
-Una vez configurado el entorno, puedes ejecutar el programa escribiendo el siguiente comando en la terminal:    
+Una vez configurado el entorno, puedes ejecutar el programa escribiendo el siguiente comando en la terminal: 
+
+##Referencias
+@article{Bularka2018,
+  author = {Bularka, Szilard and Szabo, Roland and Otesteanu, Marius and Babaita, Mircea},
+  title = {Robotic Arm Control with Hand Movement Gestures},
+  journal = {Conference Proceedings of the 2018 41st International Conference on Telecommunications and Signal Processing (TSP)},
+  year = {2018},
+  volume = {},
+  number = {},
+  pages = {1-5},
+  keywords = {DH-HEMTs; Voltage control; accelerometer; hand gesture; hand movement; robotic arm; smart phone; smart watch; wireless protocol},
+  doi = {10.1109/TSP.2018.8441341}
+}
+
+@article{Jiude2020,
+  author = {Zhu, Jiude and Pei, Yijian and Liu, Yunkai and Gao, Donglin},
+  title = {Design and Implementation of Dual-Arm Mobile Robot System Based on Wireless Transmission},
+  journal = {Conference Proceedings of the 2020 5th International Conference on Computer and Communication Systems (ICCCS)},
+  year = {2020},
+  volume = {},
+  number = {},
+  pages = {757-760},
+  keywords = {Wireless communication; Space exploration; Mobile robots; Data communication; Relays; Robots; Wireless fidelity; Remote control; System analysis and design; Smart phones; wireless communication; relay technology; remote control; mechanical arm; mobile robot; APP development},
+  doi = {10.1109/ICCCS49078.2020.9118454}
+}
+
+@article{Yuen2021,
+  author = {Yuen, Man-Ching and Chan, Ka Kei and Li, Kwok Shing},
+  title = {Mobile App Controlled Modular Combat Robot for STEM Education},
+  journal = {Conference Proceedings of the 2021 International Conference on COMmunication Systems & NETworkS (COMSNETS)},
+  year = {2021},
+  volume = {},
+  number = {},
+  pages = {64-68},
+  keywords = {Protocols; Education; Tools; Mobile applications; Data communication; Robots; Payloads; combat robot; robot base; combat modules},
+  doi = {10.1109/COMSNETS51098.2021.9352927}
+}
+
+@article{Premkumar2015,
+  author = {Premkumar, Keerthi and Gerard Joe Nigel, K},
+  title = {Smart phone based robotic arm control using raspberry pi, android and Wi-Fi},
+  journal = {Conference Proceedings of the 2015 International Conference on Innovations in Information, Embedded and Communication Systems (ICIIECS)},
+  year = {2015},
+  volume = {},
+  number = {},
+  pages = {1-3},
+  keywords = {Robots; Smart phones; IEEE 802.11 Standard; DC motors; Internet; Pins; Computers; Robotic Arm; Raspberry pi; Android Application},
+  doi = {10.1109/ICIIECS.2015.7192973}
+}
+
+@article{Sharma2018,
+  author = {Sharma, Shivam and Sahai, Shashwat and Joshi, Jaisal and Hema, N},
+  title = {Stage-wise Development of a Remote Controlled Robotic Arm},
+  journal = {Conference Proceedings of the 2018 Fifth International Conference on Parallel, Distributed and Grid Computing (PDGC)},
+  year = {2018},
+  volume = {},
+  number = {},
+  pages = {364-367},
+  keywords = {Manipulators; Servomotors; DC motors; Bluetooth; Three-dimensional displays; Potentiometers; Robotic arm; stage-wise development; remote access; real-time simulation},
+  doi = {10.1109/PDGC.2018.8745871}
+}
+
+@article{Singh2020,
+  author = {Singh, Gaurav and Singh, Ashirwad Kumar and Yadav, Anurag and Bhardwaj, Indu and Chauhan, Usha},
+  title = {IoT developed Wi-Fi Controlled Rover With Robotic Arm Using NodeMCU},
+  journal = {Conference Proceedings of the 2020 2nd International Conference on Advances in Computing, Communication Control and Networking (ICACCCN)},
+  year = {2020},
+  volume = {},
+  number = {},
+  pages = {497-501},
+  keywords = {Tools; Manipulators; Control systems; Wireless fidelity; Smart phones; Wi-Fi; Blynk; NodeMCU; Rover; Robotic Arm; Motor Driver},
+  doi = {10.1109/ICACCCN51052.2020.9362956}
+}
+
+@article{Kim2020,
+  author = {Kim, Soohyun and Mun, Hyunsu and Lee, Youngseok},
+  title = {Automatic Mobile App Speed Measurement with Robot},
+  journal = {Conference Proceedings of the 2020 21st Asia-Pacific Network Operations and Management Symposium (APNOMS)},
+  year = {2020},
+  volume = {},
+  number = {},
+  pages = {365-368},
+  keywords = {Robots; Mobile applications; Indexes; Robot kinematics; Manipulators; Testing; Velocity measurement; mobile app; speed index; robot; image recognition; machine learning; cnn},
+  doi = {10.23919/APNOMS50412.2020.9236980}
+}
+
+@book{Spong2006,
+  author = {M. W. Spong and Seth Hutchinson and M. Vidyasagar},
+  title = {Robot Dynamics and Control},
+  publisher = {Wiley},
+  year = {2006},
+}
+
+@book{Craig2005,
+  author = {J. J. Craig},
+  title = {Introduction to Robotics: Mechanics and Control},
+  publisher = {Prentice-Hall},
+  year = {2005},
+  edition = {Third},
+}
+
+@book{Barrientos1996,
+  author = {A. Barrientos and L. F. Peñin and C. Balaguer and R. Aracil},
+  title = {Fundamentos de Robótica},
+  publisher = {McGraw-Hill},
+  year = {1996},
+  edition = {Primera edición en español},
+}
+
+@book{Reyes2008,
+  author = {Fernando Reyes Cortés},
+  title = {Robótica: Control de Robots Manipuladores},
+  publisher = {Editorial AlfaOmega},
+  year = {2008},
+}
+
+@book{Ogata2010,
+  author = {Katsuhiko Ogata},
+  title = {Ingeniería de Control Moderna},
+  publisher = {Prentice Hall},
+  year = {2010},
+}
+
     
     python Nombre_del_archivo.py
     
