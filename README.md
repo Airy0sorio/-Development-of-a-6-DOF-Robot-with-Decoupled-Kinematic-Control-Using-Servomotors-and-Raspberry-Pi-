@@ -208,6 +208,14 @@ Instala las librerías utilizadas en el proyecto ejecutando el siguiente comando
 6.**Ejecución del programa**
 Una vez configurado el entorno, puedes ejecutar el programa escribiendo el siguiente comando en la terminal: 
 
+    
+    python Nombre_del_archivo.py
+    
+    
+Para futuras ejecuciones, simplemente activa el entorno virtual y ejecuta el archivo Python que deseas correr. 
+Los pasos 4 y 6 son suficientes para ejecutar cualquier código adicional.
+
+
 ##Referencias
 @article{Bularka2018,
   author = {Bularka, Szilard and Szabo, Roland and Otesteanu, Marius and Babaita, Mircea},
@@ -329,12 +337,5 @@ Una vez configurado el entorno, puedes ejecutar el programa escribiendo el sigui
   publisher = {Prentice Hall},
   year = {2010},
 }
-
-    
-    python Nombre_del_archivo.py
-    
-    
-Para futuras ejecuciones, simplemente activa el entorno virtual y ejecuta el archivo Python que deseas correr. 
-Los pasos 4 y 6 son suficientes para ejecutar cualquier código adicional.
 
 
